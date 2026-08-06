@@ -75,8 +75,6 @@ if __name__ == "__main__":
 
     print("🎴 Pokémon Center Canada Tracker lancé")
 
-    send_discord("✅ Test réussi - Pokémon Center Canada Tracker fonctionne")
-
     check_pokemon_center()
 
     print("Scan terminé")
