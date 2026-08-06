@@ -3,7 +3,9 @@
 BASE_URL = "https://www.pokemoncenter.com/en-ca"
 
 # Discord
-DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1534711095632203906/P7RISPJ3-dWz-Qe2DAL2pOkjPlW7NqSIq5nGlbUDg9OQP2607Mi6aL6tQW-MUJAb2Zib"
+import os
+
+DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")
 
 # Mots-clés importants
 KEYWORDS = [
