@@ -70,7 +70,7 @@ def check_queue():
         if queue_found and not status["queue_active"]:
 
             send_discord(
-                "🚨 QUEUE POKÉMON CENTER CANADA OUVERTE 🚨\n\n"
+                "🚨 🍆 QUEUE POKÉMON CENTER LES PAPOUTES 🍆 🚨\n\n"
                 + BASE_URL
             )
 
